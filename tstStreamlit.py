@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title("Webcam Live Feed")
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 frame_placeholder = st.empty()
 stop_button_pressed = st.button("stop")
